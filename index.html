@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Box Handling</title>
+</head>
+<body>
+    <div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-7">
+            <div class="card shadow-lg">
+
+                <div class="card-header bg-success text-white text-center">
+                    <h4 class="mb-0">CheckBox Handling</h4>
+                </div>
+
+                <div class="card-body">
+
+                    <input type="checkbox" class="Check_all">
+                    <input type="checkbox" class="Check_all">
+                    <input type="checkbox" class="Check_all">
+                    <input type="checkbox" class="Check_all">
+                    <input type="checkbox" class="Check_all">
+                    
+                    <div class="d-flex justify-content-center gap-3 mt-3">
+                        <button id="sum_btn" class="btn btn-primary" onclick="checkall()">CheckAll</button>
+                        <button id="product_btn" class="btn btn-warning" onclick="uncheck()">UnCheckAll</button>
+                        <button id="reset_btn" class="btn btn-secondary" onclick="reverse()">UncheckSelected</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
