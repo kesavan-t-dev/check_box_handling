@@ -1,9 +1,9 @@
-function checkall() {
+function check_all() {
     document.querySelectorAll('.check_all').forEach(cb => cb.checked = true);
 
 }
         
-function uncheckall() {
+function unchec_kall() {
     document.querySelectorAll('.check_all').forEach(cb => cb.checked = false); 
 
 }
