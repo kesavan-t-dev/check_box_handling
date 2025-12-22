@@ -3,7 +3,7 @@ function check_all() {
 
 }
         
-function unchec_kall() {
+function uncheck_all() {
     document.querySelectorAll('.check_all').forEach(cb => cb.checked = false); 
 
 }
